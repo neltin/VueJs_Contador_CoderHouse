@@ -1,0 +1,36 @@
+body{
+    background-color: #d4eae96d;
+
+}
+.contador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;         
+}
+input, button{
+    text-align: center;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;        
+}
+button:hover{
+    background-color: #A2A5C2;
+}
+
+input{
+    width: 100px;
+    height: 60px;
+    font-size: 25px;
+}
+input.color-red{
+    color: red;
+}
